@@ -1,0 +1,72 @@
+$air-aroma: #C7C7C7;
+$another-gray: #212020;
+$battered-gray: #323232;
+$black: #000;
+$canvey-mud: #343434;
+$carousel-gray: #2E2E2E;
+$dark-gray: #111111;
+$dark-transparent: rgba(0, 0, 0, 0.8);
+$darker-gray: #1a1a1a;
+$deep-gray: #262525;
+$definition-gray: #808080;
+$gray: #404040;
+$gudiance-red: #AF372A;
+$gunship: #777;
+$iplayer-pink: #f54997;
+$light-gray: #dedddd;
+$light-list-gray: #1e1e1e;
+$light-transparent: rgba(52, 52, 52, 0.85);
+$lighter-gray: #474747;
+$list-gray: #555555;
+$madison-gray: #6b6b6a;
+$metallic-gray: #4a494a;
+$midnight-gray: #979797;
+$mist-gray: #353535;
+$not-quite-iplayer-pink: #cf3e80;
+$onnow-pink: #e92f83;
+$silver: #BDBDBD;
+$slate-gray: #3B3B3B;
+$tangerine: #ff9600;
+$unavailable-gray: #909090;
+$white: #fff;
+$white-rock: #eee;
+
+
+.table.colours {
+    color: $white-rock;
+
+    .light, .name, thead {
+        color: $canvey-mud;
+    }
+}
+
+@media (max-width: 768px) {
+    .affix {
+        position: static;
+    }
+}
+
+.examples {
+    a {
+        color: $canvey-mud;
+        &:hover, &:focus {
+            color: $iplayer-pink;
+            text-decoration: none;
+        }
+    }
+
+    button {
+        color: white;
+        border: 0px;
+        background-color: $canvey-mud;
+        padding: 8px;
+        &:hover, &:focus {
+            background-color: $not-quite-iplayer-pink;
+        }
+    }
+}
+
+.nav .nav {
+    font-size: 10px;
+    margin-left: 10px;
+}

@@ -1,4 +1,6 @@
-styleguide
-==========
+iplayer-styleguide
+==================
 
-The iPlayer style guide.
+Styleguide for Responsive Tv &amp; iPlayer website
+
+This repo is live in http://miguelgonz.github.io/iplayer-styleguide/
