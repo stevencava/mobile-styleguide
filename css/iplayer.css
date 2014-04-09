@@ -39,3 +39,8 @@
   font-size: 10px;
   margin-left: 10px;
 }
+
+.img-box {
+  width: 250px;
+  height: auto;
+}
