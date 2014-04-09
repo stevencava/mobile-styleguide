@@ -40,7 +40,12 @@
   margin-left: 10px;
 }
 
-.img-box {
-  width: 250px;
+.img-box-portrait {
+  width: auto;
+  max-height: 600px;
+}
+
+.img-box-landscape {
   height: auto;
+  max-width: 100%;
 }
